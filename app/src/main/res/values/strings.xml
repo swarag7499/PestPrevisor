@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pest Previsor</string>
+    <string name="home">This is home screen</string>
+    <string name="location_prompt">Choose a location</string>
+
+    <string-array name="location_arrays">
+        <item>Akola,IN</item>
+        <item>Lam,IN</item>
+        <item>Coimbatore,IN</item>
+        <item>Nagpur,IN</item>
+        <item>Parbhani,IN</item>
+        <item>Sirsa,IN</item>
+    </string-array>
+    <string name="pesticide"> \u0020 Pesticides : - </string>
+    <string name="detection">RICE DISEASE DETECTION</string>
+
+    <string name="tfe_ic_device" translatable="false">Device:</string>
+    <string-array name="tfe_ic_devices" translatable="false">
+        <item>CPU</item>
+        <!-- TODO: Add GPU  -->
+
+    </string-array>
+    <string name="tfe_ic_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+</resources>

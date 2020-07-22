@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+
+
+    <EditText
+        android:id="@+id/edcrop"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="282dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="200dp"
+        android:background="@drawable/text_edit"
+        android:ems="10"
+        android:hint=" Enter Crop Name"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aclonica"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="200dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Week's Forecasted Weather :"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/showData"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text=""
+        android:background="@drawable/text_view"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="200dp"
+        android:fontFamily="@font/aclonica"
+        android:textAlignment="center"
+        />
+
+
+    <Button
+        android:id="@+id/btnPredict"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginBottom="190dp"
+        android:background="@drawable/my_button_bg"
+        android:fontFamily="@font/aclonica"
+        android:text=" PREDICT "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pred"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="17dp"
+        android:background="@drawable/pred_text"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="200dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_gravity="bottom"
+        app:menu="@menu/bottom_navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        />
+
+
+
+
+</FrameLayout>
